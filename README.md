@@ -1,4 +1,6 @@
-# Trabalho desenvolvido na disciplina de Sistemas Distribuídos
+### Trabalho realizado na disciplina de Sistemas Distribuídos
+
+##### implementação de um balanceador de carga utilizando o algoritmo Round-Robin. Foi criada uma API client/server utilizando FastAPI.
 
 ### How to execute
 
@@ -14,6 +16,5 @@ python3 serverName.py
 
 ##### in "loadBalancer" folder
 python3 -m uvicorn src.main:app --reload
-
 
 ### execute requests 
